@@ -1,0 +1,12 @@
+﻿global using System.Collections.Immutable;
+global using CodingWithCalvin.RecipeRolodex.Uno.DataContracts;
+global using CodingWithCalvin.RecipeRolodex.Uno.DataContracts.Serialization;
+global using CodingWithCalvin.RecipeRolodex.Uno.Models;
+global using CodingWithCalvin.RecipeRolodex.Uno.Presentation;
+global using CodingWithCalvin.RecipeRolodex.Uno.Services.Caching;
+global using CodingWithCalvin.RecipeRolodex.Uno.Services.Endpoints;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using ApplicationExecutionState = Windows.ApplicationModel.Activation.ApplicationExecutionState;
